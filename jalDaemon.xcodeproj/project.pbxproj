@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C9BF9C8216CE13600FD6AAF /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BF9C7216CE13600FD6AAF /* main.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C9BF9BE216CE13600FD6AAF /* jalDaemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jalDaemon; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9BF9C3216CE13600FD6AAF /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		8C9BF9C7216CE13600FD6AAF /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		AB0D66A1238D2CC1009BE865 /* com.linqj.jalDaemon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.linqj.jalDaemon.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C9BF9BB216CE13600FD6AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C9BF9B5216CE13600FD6AAF = {
+			isa = PBXGroup;
+			children = (
+				8C9BF9C0216CE13600FD6AAF /* jalDaemon */,
+				8C9BF9BF216CE13600FD6AAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C9BF9BF216CE13600FD6AAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF9BE216CE13600FD6AAF /* jalDaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C9BF9C0216CE13600FD6AAF /* jalDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF9C7216CE13600FD6AAF /* main.mm */,
+				8C9BF9C1216CE13600FD6AAF /* Package */,
+			);
+			path = jalDaemon;
+			sourceTree = "<group>";
+		};
+		8C9BF9C1216CE13600FD6AAF /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D669F238D2CC1009BE865 /* Library */,
+				8C9BF9C2216CE13600FD6AAF /* DEBIAN */,
+				8C9BF9C4216CE13600FD6AAF /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		8C9BF9C2216CE13600FD6AAF /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF9C3216CE13600FD6AAF /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		8C9BF9C4216CE13600FD6AAF /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF9C5216CE13600FD6AAF /* bin */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		8C9BF9C5216CE13600FD6AAF /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+		AB0D669F238D2CC1009BE865 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D66A0238D2CC1009BE865 /* LaunchDaemons */,
+			);
+			name = Library;
+			path = Package/Library;
+			sourceTree = "<group>";
+		};
+		AB0D66A0238D2CC1009BE865 /* LaunchDaemons */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D66A1238D2CC1009BE865 /* com.linqj.jalDaemon.plist */,
+			);
+			path = LaunchDaemons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C9BF9BD216CE13600FD6AAF /* jalDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9BF9CB216CE13600FD6AAF /* Build configuration list for PBXNativeTarget "jalDaemon" */;
+			buildPhases = (
+				8C9BF9BA216CE13600FD6AAF /* Sources */,
+				8C9BF9BB216CE13600FD6AAF /* Frameworks */,
+				8C9BF9BC216CE13600FD6AAF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jalDaemon;
+			productName = jalDaemon;
+			productReference = 8C9BF9BE216CE13600FD6AAF /* jalDaemon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C9BF9B6216CE13600FD6AAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					8C9BF9BD216CE13600FD6AAF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 8C9BF9B9216CE13600FD6AAF /* Build configuration list for PBXProject "jalDaemon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C9BF9B5216CE13600FD6AAF;
+			productRefGroup = 8C9BF9BF216CE13600FD6AAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C9BF9BD216CE13600FD6AAF /* jalDaemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C9BF9BC216CE13600FD6AAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C9BF9BA216CE13600FD6AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9BF9C8216CE13600FD6AAF /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C9BF9C9216CE13600FD6AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"jalDaemon\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C9BF9CA216CE13600FD6AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"jalDaemon\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		8C9BF9CC216CE13600FD6AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = jalDaemon/monkeydev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJXX47MLM6;
+				INSTALL_PATH = /usr/bin;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = jalDaemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C9BF9CD216CE13600FD6AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = jalDaemon/monkeydev.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJXX47MLM6;
+				INSTALL_PATH = /usr/bin;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = jalDaemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C9BF9B9216CE13600FD6AAF /* Build configuration list for PBXProject "jalDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9BF9C9216CE13600FD6AAF /* Release */,
+				8C9BF9CA216CE13600FD6AAF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9BF9CB216CE13600FD6AAF /* Build configuration list for PBXNativeTarget "jalDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9BF9CC216CE13600FD6AAF /* Release */,
+				8C9BF9CD216CE13600FD6AAF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C9BF9B6216CE13600FD6AAF /* Project object */;
+}
